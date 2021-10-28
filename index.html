@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Login-Form</title>
+  </head>
+  <body>
+    <div class="login-form">
+      <form class="form" action="connect.php" method="post">
+        <h3 class="title">login</h3>
+        <input type="text" name="username" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <input id="login" type="submit" value="login" />
+        <div class="color-palette">
+          <a id="red" onclick="changeColor('red')">#e74c3c</a>
+          <a id="blue" onclick="changeColor('blue')">#3498db</a>
+          <a id="green" onclick="changeColor('green')">#2ecc71</a>
+          <a id="gray" onclick="changeColor('gray')">#34495e</a>
+          <a id="yellow" onclick="changeColor('yellow')">#f1c40f</a>
+          <a id="orange" onclick="changeColor('orange')">#e67e22</a>
+        </div>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
